@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple URL Shortener</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="style.js"></script>
+</head>
+<body>
+  <main>
+    <nav class="navbar">
+        <div class="topBar">
+          <h1>Logo</h1>
+          <i class="uil uil-bars toggle"></i>
+        </div>
+        <ul class="navMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Analytics</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+  <section id="Home">
+    <div class="container">
+    <h1 class="cont">Welcome to LinkMagic: Your Ultimate URL Toolbox</h1>
+    <h2>Transform Long URLs into Magic Links</h2>
+    <p class="hcnt">Are you tired of sharing those unwieldy, never-ending URLs? Look no further! LinkMagic is your one-stop solution for creating short, memorable links. With our powerful features, you can:</p>
+  </div>
+  <div class="int-box">
+    <form action="#" method="post" class="form-control">
+      <input type="url" name="url" class="form-text"  placeholder="  Enter your url" required>
+      <button type="submit" class="btn">Submit</button>
+      <p class="cnt">No need to signup, pay and worrie!</p>
+
+      <button class="copy"> COPY </button> <!--onclick="dialog.show();"-->
+      <div id="sow-lnk">
+        
+       <p class="lik">https://cloud.google.com/</p>
+        </div>
+        <button class="qr" onclick="expandBox()">QR</button>
+        
+        <dialog open class="dlg">
+          <div id="qr-im"><img src="https://tse2.mm.bing.net/th/id/OIP.8GITPU9X6qcG6ESNNoBcjwHaHa?rs=1&pid=ImgDetMain" alt="name" width="200" height="200"></img></div>
+          <!-- <button class="qr" onclick="hide()">close</button> -->
+           <button onclick="openForm()"  class="do-btn">DOWNLOAD</button>
+           <div class="form-popup" id="myForm"> 
+            <button onclick="closeForm()" class="do-s">SVG</button> 
+            <button onclick="closeForm()" class="do-j">JPG</button> 
+            <button onclick="closeForm()" class="do-p">PNG</button> </div>
+        </dialog>
+    </form>
+    
+  </div>
+  </section>
+
+<section id="Contact">
+
+  <span class="ctn-o"> 
+    <p class="ctn-ht">Why This?</p>
+    <p class="ctn-st">Effortless Shortening:</p>
+    <p>Our intuitive platform allows you to Shorten URLs in seconds, without any hassle.</p>
+    <p class="ctn-st">Advanced Analytics:</p>
+    <p>Gain instights into your link performance with our comprehensive analytics dashboard, track clicks, geographic data and more to optimize your strategy</p>
+    <p class="ctn-st">Secure and Reliable:</p>
+    <p>Your link s are safe with us Quicklinks ensure top-notch security and uptime, so your links are always accessible.</p><br>
+  </span>
+
+
+  <div class="cot">
+  <P class="fed">Feedback</P>
+  <form action="" method="post" class="cott">
+    <input type="text" placeholder="Name" id="fna" class="fna">
+    <input type="email" placeholder="Gmail" id="fma" class="fma"><br>
+    <textarea cols="43" rows="3" class="txt-cmt"></textarea><br>
+    <button type="submit" class="btn-snd">Send</button>
+  </form>
+</div>
+</div>
+<div class="fot"></div>
+</section> 
+
+<script type="text/javascript" src="style.js"></script>
+</main>
+</body>
+</html>
