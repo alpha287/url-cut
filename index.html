@@ -4,8 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Simple URL Shortener</title>
+<link rel="icon" type="image/png" href="images/Kurama.png">
 <link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="style.js"></script>
+<link data-identity="gatsby-global-css" href="/styles.479c917fa2fcac304bdf.css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </head>
 <body>
   <main>
@@ -38,7 +45,7 @@
       <div id="sow-lnk">
         
        <p class="lik">https://cloud.google.com/</p>
-        </div>
+      </div>
         <button class="qr" onclick="expandBox()">QR</button>
         
         <dialog open class="dlg">
@@ -48,27 +55,45 @@
            <div class="form-popup" id="myForm"> 
             <button onclick="closeForm()" class="do-s">SVG</button> 
             <button onclick="closeForm()" class="do-j">JPG</button> 
-            <button onclick="closeForm()" class="do-p">PNG</button> </div>
+            <button onclick="closeForm()" class="do-p">PNG</button>
+           </div>
         </dialog>
     </form>
     
   </div>
   </section>
 
-<section id="Contact">
+<section id="features">
 
   <span class="ctn-o"> 
-    <p class="ctn-ht">Why This?</p>
-    <p class="ctn-st">Effortless Shortening:</p>
-    <p>Our intuitive platform allows you to Shorten URLs in seconds, without any hassle.</p>
-    <p class="ctn-st">Advanced Analytics:</p>
-    <p>Gain instights into your link performance with our comprehensive analytics dashboard, track clicks, geographic data and more to optimize your strategy</p>
-    <p class="ctn-st">Secure and Reliable:</p>
-    <p>Your link s are safe with us Quicklinks ensure top-notch security and uptime, so your links are always accessible.</p><br>
+    <p class="ctn-ht">Why This The Best URL Shortener Online?</p>
+    <p>What sets us apart as the best URL shortener online? It's our commitment to quality, security, and user experience. We offer advanced features such as:</p>
+   <div class="serv">
+    <div class="listing-1">
+    <p class="ctn-st">Instant Link Shortening:</p>
+    <p class="inst">Our URL shortener online allows you to shorten links quickly and efficiently, perfect for sharing on social media, in emails, or anywhere else you need a clean link.</p></div>
+    <div class="listing-1">
+    <p class="ctn-st">Link to QR Code:</p>
+    <p class="qrco">QR codes allow users to access your links without needing to type long URLs. Whether it’s a website, a product page, or an event invitation, users can reach your content instantly by scanning the code with their smartphone.</p></div>
+    <div class="listing-1">
+    <p class="ctn-st">URL Analytics:</p>
+    <p class="anal">Track the performance of your shortened URLs with our built-in analytics. Understand how your links are performing with detailed insights, including the number of clicks, geographic location of visitors, and more.</p></div>
+    <div class="listing-1">
+    <p class="ctn-st">Customizable Links:</p>
+    <p class="cust">Personalize your shortened URLs to make them memorable and brand-friendly. Create links that are easy to recognize and trust.</p></div>
+    <div class="listing-1">
+    <p class="ctn-st">Encrypted Links:</p>
+    <p class="encr">Use advanced encryption to ensure that your shortened URLs are safe from unauthorized access and tampering. This helps your links remain secure from the moment they’re created.</p></div>
+    <div class="listing-1">
+    <p class="ctn-st">Bulk Shorten:</p>
+    <p class="bush">With bulk shortening, you can ensure that all your URLs maintain a consistent look, helping reinforce your brand identity across all channels</p><br></div>
+   </div>
+  </div>
   </span>
+</section>
 
-
-  <div class="cot">
+<section class="Contact">
+  <div  data-aos="fade-right" class="cot" >
   <P class="fed">Feedback</P>
   <form action="" method="post" class="cott">
     <input type="text" placeholder="Name" id="fna" class="fna">
@@ -76,10 +101,10 @@
     <textarea cols="43" rows="3" class="txt-cmt"></textarea><br>
     <button type="submit" class="btn-snd">Send</button>
   </form>
-</div>
-</div>
-<div class="fot"></div>
+</div> 
+
 </section> 
+<div class="fot"></div>
 
 <script type="text/javascript" src="style.js"></script>
 </main>
